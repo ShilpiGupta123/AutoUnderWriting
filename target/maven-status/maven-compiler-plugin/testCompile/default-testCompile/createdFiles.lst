@@ -1,0 +1,16 @@
+library\Loan_Sizing_Classification_page.class
+library\Login_Page.class
+library\Deal_Report_page.class
+setup_browser\Setup.class
+library\Deal_Creation_page.class
+library\Deal_Report_Listing_page.class
+automation_testscripts\Deal_Creation.class
+library\Dashboard_Page.class
+library\Loan_Sizing_Listing_Page.class
+automation_testscripts\Doc_Repository.class
+automation_testscripts\Dashboard.class
+library\Doc_Repository_page.class
+library\Header.class
+listener\Listener.class
+library\Loan_Sizing_Vailidation_page.class
+automation_testscripts\Login.class

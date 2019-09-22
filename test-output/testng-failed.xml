@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Clik]">
+  <test thread-count="5" name="AutoUnderwriting(failed)">
+    <classes>
+      <class name="com.autouw.qa.testcase.DealCreation">
+        <methods>
+          <include name="next"/>
+          <include name="creation"/>
+        </methods>
+      </class> <!-- com.autouw.qa.testcase.DealCreation -->
+      <class name="com.autouw.qa.testcase.Login">
+        <methods>
+          <include name="RequestDemo"/>
+          <include name="UserLoginWithValidUsernameAndPassword"/>
+          <include name="login"/>
+          <include name="AcceptCookies"/>
+          <include name="TermAndSerivce"/>
+          <include name="PrivacyPolicy"/>
+        </methods>
+      </class> <!-- com.autouw.qa.testcase.Login -->
+      <class name="com.autouw.qa.base.SetUp">
+        <methods>
+          <include name="Exit"/>
+          <include name="ConnectWithBrowser"/>
+          <include name="Start"/>
+        </methods>
+      </class> <!-- com.autouw.qa.base.SetUp -->
+      <class name="com.autouw.qa.testcase.Dashboard">
+        <methods>
+          <include name="TC04Dashboard"/>
+          <include name="dashboard"/>
+        </methods>
+      </class> <!-- com.autouw.qa.testcase.Dashboard -->
+      <class name="com.autouw.qa.testcase.DocRepository">
+        <methods>
+          <include name="VerifySuccessfullMessageAfterCreatingFolder"/>
+          <include name="SendingAFolderNameIsEmpty"/>
+          <include name="SelectCreateFolder"/>
+          <include name="VerifyValidationMessageWhileUploadingDocumentInHomeRootRepo"/>
+          <include name="CreateDeal"/>
+          <include name="ClickAddFolderButton"/>
+          <include name="VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected"/>
+          <include name="CloseTab"/>
+          <include name="UploadDocuments"/>
+          <include name="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenHomeRootRopoIsNotSelected"/>
+          <include name="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenRootHomeRopoIsSelected"/>
+          <include name="Doc_Repository"/>
+          <include name="SelectHomeRoot"/>
+          <include name="VerifyValidationMessageAfterAfterClickingOnCreateDealButtonWhenCreatedFolderIsNotContainDocuments"/>
+        </methods>
+      </class> <!-- com.autouw.qa.testcase.DocRepository -->
+    </classes>
+  </test> <!-- AutoUnderwriting(failed) -->
+</suite> <!-- Failed suite [Clik] -->

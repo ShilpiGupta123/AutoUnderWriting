@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="7" total="27" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Clik" duration-ms="137832" started-at="2019-05-15T10:08:05Z" finished-at="2019-05-15T10:10:23Z">
+    <groups>
+    </groups>
+    <test name="AutoUnderwriting" duration-ms="137832" started-at="2019-05-15T10:08:05Z" finished-at="2019-05-15T10:10:23Z">
+      <class name="automation_testscripts.Login">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:automation_testscripts.Login@6be46e8f]" name="SetUp" is-config="true" duration-ms="73" started-at="2019-05-15T10:08:22Z" finished-at="2019-05-15T10:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TermAndSerivce()[pri:2, instance:automation_testscripts.Login@6be46e8f]" name="TermAndSerivce" duration-ms="510" started-at="2019-05-15T10:08:22Z" finished-at="2019-05-15T10:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermAndSerivce -->
+        <test-method status="PASS" signature="PrivacyPolicy()[pri:3, instance:automation_testscripts.Login@6be46e8f]" name="PrivacyPolicy" duration-ms="574" started-at="2019-05-15T10:08:22Z" finished-at="2019-05-15T10:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicy -->
+        <test-method status="PASS" signature="RequestDemo()[pri:4, instance:automation_testscripts.Login@6be46e8f]" name="RequestDemo" duration-ms="355" started-at="2019-05-15T10:08:23Z" finished-at="2019-05-15T10:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestDemo -->
+        <test-method status="PASS" signature="AcceptCookies()[pri:5, instance:automation_testscripts.Login@6be46e8f]" name="AcceptCookies" duration-ms="7973" started-at="2019-05-15T10:08:23Z" finished-at="2019-05-15T10:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptCookies -->
+        <test-method status="PASS" signature="UserLoginWithValidUsernameAndPassword()[pri:13, instance:automation_testscripts.Login@6be46e8f]" name="UserLoginWithValidUsernameAndPassword" duration-ms="22007" started-at="2019-05-15T10:08:31Z" finished-at="2019-05-15T10:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLoginWithValidUsernameAndPassword -->
+      </class> <!-- automation_testscripts.Login -->
+      <class name="setup_browser.Setup">
+        <test-method status="PASS" signature="Start()[pri:0, instance:setup_browser.Setup@68837a77]" name="Start" is-config="true" duration-ms="30" started-at="2019-05-15T10:08:05Z" finished-at="2019-05-15T10:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="ConnectWithBrowser()[pri:1, instance:setup_browser.Setup@68837a77]" name="ConnectWithBrowser" duration-ms="16330" started-at="2019-05-15T10:08:05Z" finished-at="2019-05-15T10:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectWithBrowser -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:setup_browser.Setup@68837a77]" name="Exit" is-config="true" duration-ms="1084" started-at="2019-05-15T10:10:23Z" finished-at="2019-05-15T10:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+      </class> <!-- setup_browser.Setup -->
+      <class name="automation_testscripts.Doc_Repository">
+        <test-method status="PASS" signature="DocRepository()[pri:0, instance:automation_testscripts.Doc_Repository@327471b5]" name="DocRepository" is-config="true" duration-ms="5" started-at="2019-05-15T10:08:58Z" finished-at="2019-05-15T10:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocRepository -->
+        <test-method status="PASS" signature="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenHomeRootRopoIsNotSelected()[pri:15, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenHomeRootRopoIsNotSelected" duration-ms="5188" started-at="2019-05-15T10:08:58Z" finished-at="2019-05-15T10:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidationMessageAfterClickingOnCreateDealButtonWhenHomeRootRopoIsNotSelected -->
+        <test-method status="FAIL" signature="VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected()[pri:16, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected" duration-ms="5157" started-at="2019-05-15T10:09:03Z" finished-at="2019-05-15T10:09:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please select home to create folder] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please select home to create folder] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at automation_testscripts.Doc_Repository.VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected(Doc_Repository.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected -->
+        <test-method status="PASS" signature="SelectHomeRoot()[pri:17, instance:automation_testscripts.Doc_Repository@327471b5]" name="SelectHomeRoot" duration-ms="5209" started-at="2019-05-15T10:09:08Z" finished-at="2019-05-15T10:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHomeRoot -->
+        <test-method status="PASS" signature="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenRootHomeRopoIsSelected()[pri:18, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifyValidationMessageAfterClickingOnCreateDealButtonWhenRootHomeRopoIsSelected" duration-ms="5103" started-at="2019-05-15T10:09:14Z" depends-on-methods="automation_testscripts.Doc_Repository.SelectHomeRoot" finished-at="2019-05-15T10:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidationMessageAfterClickingOnCreateDealButtonWhenRootHomeRopoIsSelected -->
+        <test-method status="PASS" signature="VerifyValidationMessageWhileUploadingDocumentInHomeRootRepo()[pri:19, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifyValidationMessageWhileUploadingDocumentInHomeRootRepo" duration-ms="12028" started-at="2019-05-15T10:09:19Z" depends-on-methods="automation_testscripts.Doc_Repository.SelectHomeRoot" finished-at="2019-05-15T10:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidationMessageWhileUploadingDocumentInHomeRootRepo -->
+        <test-method status="PASS" signature="ClickAddFolderButton()[pri:20, instance:automation_testscripts.Doc_Repository@327471b5]" name="ClickAddFolderButton" duration-ms="148" started-at="2019-05-15T10:09:31Z" depends-on-methods="automation_testscripts.Doc_Repository.SelectHomeRoot" finished-at="2019-05-15T10:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAddFolderButton -->
+        <test-method status="PASS" signature="SendingAFolderNameIsEmpty()[pri:21, instance:automation_testscripts.Doc_Repository@327471b5]" name="SendingAFolderNameIsEmpty" duration-ms="5174" started-at="2019-05-15T10:09:31Z" depends-on-methods="automation_testscripts.Doc_Repository.ClickAddFolderButton" finished-at="2019-05-15T10:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendingAFolderNameIsEmpty -->
+        <test-method status="PASS" signature="VerifySuccessfullMessageAfterCreatingFolder()[pri:22, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifySuccessfullMessageAfterCreatingFolder" duration-ms="11263" started-at="2019-05-15T10:09:36Z" depends-on-methods="automation_testscripts.Doc_Repository.ClickAddFolderButton" finished-at="2019-05-15T10:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullMessageAfterCreatingFolder -->
+        <test-method status="PASS" signature="SelectCreateFolder()[pri:23, instance:automation_testscripts.Doc_Repository@327471b5]" name="SelectCreateFolder" duration-ms="5268" started-at="2019-05-15T10:09:47Z" depends-on-methods="automation_testscripts.Doc_Repository.VerifySuccessfullMessageAfterCreatingFolder" finished-at="2019-05-15T10:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCreateFolder -->
+        <test-method status="PASS" signature="VerifyValidationMessageAfterAfterClickingOnCreateDealButtonWhenCreatedFolderIsNotContainDocuments()[pri:24, instance:automation_testscripts.Doc_Repository@327471b5]" name="VerifyValidationMessageAfterAfterClickingOnCreateDealButtonWhenCreatedFolderIsNotContainDocuments" duration-ms="5466" started-at="2019-05-15T10:09:53Z" depends-on-methods="automation_testscripts.Doc_Repository.SelectCreateFolder" finished-at="2019-05-15T10:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidationMessageAfterAfterClickingOnCreateDealButtonWhenCreatedFolderIsNotContainDocuments -->
+        <test-method status="PASS" signature="UploadDocuments()[pri:25, instance:automation_testscripts.Doc_Repository@327471b5]" name="UploadDocuments" duration-ms="17051" started-at="2019-05-15T10:09:58Z" depends-on-methods="automation_testscripts.Doc_Repository.SelectCreateFolder" finished-at="2019-05-15T10:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadDocuments -->
+        <test-method status="PASS" signature="CreateDeal()[pri:26, instance:automation_testscripts.Doc_Repository@327471b5]" name="CreateDeal" duration-ms="5104" started-at="2019-05-15T10:10:15Z" depends-on-methods="automation_testscripts.Doc_Repository.UploadDocuments" finished-at="2019-05-15T10:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDeal -->
+        <test-method status="PASS" signature="CloseTab()[pri:27, instance:automation_testscripts.Doc_Repository@327471b5]" name="CloseTab" duration-ms="2962" started-at="2019-05-15T10:10:20Z" finished-at="2019-05-15T10:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTab -->
+      </class> <!-- automation_testscripts.Doc_Repository -->
+      <class name="automation_testscripts.Dashboard">
+        <test-method status="PASS" signature="dashboard()[pri:0, instance:automation_testscripts.Dashboard@3567135c]" name="dashboard" is-config="true" duration-ms="2" started-at="2019-05-15T10:08:53Z" finished-at="2019-05-15T10:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method status="PASS" signature="TC04Dashboard()[pri:15, instance:automation_testscripts.Dashboard@3567135c]" name="TC04Dashboard" duration-ms="4823" started-at="2019-05-15T10:08:53Z" finished-at="2019-05-15T10:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04Dashboard -->
+      </class> <!-- automation_testscripts.Dashboard -->
+    </test> <!-- AutoUnderwriting -->
+  </suite> <!-- Clik -->
+</testng-results>

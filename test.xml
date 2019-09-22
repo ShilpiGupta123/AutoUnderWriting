@@ -1,0 +1,11 @@
+<suite name="Clik" verbose="1">
+	<listeners>
+		<listeners class-name="com.autouw.qa.util.Listener" />
+	</listeners>
+	<test name="AutoUnderwriting">
+		<classes>
+			<class name="com.autouw.qa.base.TestBase" />
+			<class name="com.autouw.qa.testcase.TestLogin" />
+		</classes>
+	</test>
+</suite>

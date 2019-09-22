@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Clik]">
+  <test thread-count="5" verbose="0" name="AutoUnderwriting(failed)">
+    <classes>
+      <class name="automation_testscripts.Doc_Repository">
+        <methods>
+          <include name="DocRepository"/>
+          <include name="VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected"/>
+        </methods>
+      </class> <!-- automation_testscripts.Doc_Repository -->
+    </classes>
+  </test> <!-- AutoUnderwriting(failed) -->
+</suite> <!-- Failed suite [Clik] -->

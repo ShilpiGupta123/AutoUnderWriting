@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 140.329 s <<< FAILURE! - in TestSuite
+VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected(automation_testscripts.Doc_Repository)  Time elapsed: 5.162 s  <<< FAILURE!
+java.lang.AssertionError: expected [Please select home to create folder] but found []
+	at automation_testscripts.Doc_Repository.VerifyValidationMessageWhileCreateFolderWhenRootHomeRepoIsNotSelected(Doc_Repository.java:55)
+
