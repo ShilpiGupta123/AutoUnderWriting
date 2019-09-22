@@ -16,10 +16,12 @@ public class Dashboard {
 
 	@BeforeClass
 	public void dashboard() {
-		//driver=Setup.driver;5432
+
+		//driver=Setup.driver;1234
 		dashboard=PageFactory.initElements(driver, Dashboard_Page.class); 	
 		System.out.println("Git Test");  
-		//232
+		//322
+
 	}
 
 	//Upload document button
