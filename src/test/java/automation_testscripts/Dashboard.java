@@ -16,7 +16,7 @@ public class Dashboard {
 
 	@BeforeClass
 	public void dashboard() {
-		//driver=Setup.driver;
+		//driver=Setup.driver;1
 		dashboard=PageFactory.initElements(driver, Dashboard_Page.class); 	
 		System.out.println("Git Test");  
 	}
