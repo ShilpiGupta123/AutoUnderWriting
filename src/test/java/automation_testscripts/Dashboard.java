@@ -16,10 +16,18 @@ public class Dashboard {
 
 	@BeforeClass
 	public void dashboard() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> bed6358600a158b9cccd4391b1b57e0e08d2ae04
 		//driver=Setup.driver;1234
 		dashboard=PageFactory.initElements(driver, Dashboard_Page.class); 	
 		System.out.println("Git Test");  
 		//322
+<<<<<<< HEAD
+=======
+
+>>>>>>> bed6358600a158b9cccd4391b1b57e0e08d2ae04
 	}
 
 	//Upload document button
